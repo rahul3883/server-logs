@@ -1,0 +1,4 @@
+#!/bin/bash
+
+npm install
+cp node_modules/socket.io-client/dist/* public/socket/
