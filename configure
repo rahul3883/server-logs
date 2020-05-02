@@ -1,4 +1,5 @@
 #!/bin/bash
 
 npm install
+mkdir public/socket
 cp node_modules/socket.io-client/dist/* public/socket/
