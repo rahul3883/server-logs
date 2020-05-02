@@ -2,14 +2,14 @@
 
 View Node.js server logs on browser.
 
-### configure
+## configure
 
 Run the below command to configure the server before starting.
 ```shell script
 ./configure
 ```
 
-### Samples
+## Samples
 
 Sample files can be found in `/samples` directory.
 
