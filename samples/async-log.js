@@ -1,14 +1,14 @@
-const browser = require('../client');
+const client = require('../client');
 
-browser.configure();
+client.configure();
 
 const message = 'sample message';
 
-browser.log(message);
+client.log(message);
 
 (async () => {
     const message = await doSomething();
-    browser.log(message);
+    client.log(message);
 })();
 
 async function doSomething(delay = 5) {
