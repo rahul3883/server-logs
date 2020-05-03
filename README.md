@@ -28,7 +28,7 @@ You can also see the logs in browser console.
 
 ## Samples
 
-Sample files can be found in `/samples` directory.
+Sample files can be found in [`/samples`](https://github.com/rahul3883/server-logs/tree/master/samples) directory.
 
 ## Notes
 
