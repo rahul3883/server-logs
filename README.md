@@ -21,6 +21,11 @@ serverLogs.configure();
 serverLogs.log('message');
 ```
 
+## View logs in browser
+Open [localhost:5000](http://localhost:5000) to see the logs.
+
+You can also see the logs in browser console.
+
 ## Samples
 
 Sample files can be found in `/samples` directory.
