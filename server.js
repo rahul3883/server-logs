@@ -26,10 +26,6 @@ io.on('connection', (socket) => {
     socketEvent.emit('new', socket.id);
 });
 
-app.get('/', (req, res) => {
-    res.send('sending the logs your way...');
-});
-
 function listen(port = 5000) {
     server.listen(port, () => {
         console.log(`server started on ${port}`);
