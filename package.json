@@ -1,5 +1,5 @@
 {
-  "name": "server-logs-client",
+  "name": "server-logs",
   "version": "1.0.0",
   "description": "",
   "main": "client.js",

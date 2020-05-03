@@ -1,4 +1,4 @@
-# Server logs on client
+# Server logs
 
 View Node.js server logs in browser.
 
