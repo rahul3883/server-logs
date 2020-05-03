@@ -1,14 +1,14 @@
-const client = require('../client');
+const serverLogs = require('server-logs');
 
-client.configure();
+serverLogs.configure();
 
 const message = 'sample message';
 
-client.log(message);
+serverLogs.log(message);
 
 (async () => {
     const message = await doSomething();
-    client.log(message);
+    serverLogs.log(message);
 })();
 
 async function doSomething(delay = 5) {

@@ -2,24 +2,23 @@
 
 View Node.js server logs in browser.
 
-## Configure
+## Install
 
-Run the below command to configure the server before starting.
 ```shell script
-./configure
+npm install server-logs
 ```
 
 ## Usage
 
 #### Start the server
 ```javascript
-const client = require('./client');
-client.configure();
+const serverLogs = require('server-logs');
+serverLogs.configure();
 ```
 
 #### Log the message
 ```javascript
-client.log('message');
+serverLogs.log('message');
 ```
 
 ## Samples
