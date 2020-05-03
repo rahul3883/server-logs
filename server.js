@@ -20,7 +20,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
 
 io.on('connection', (socket) => {
     socketEvent.emit('new', socket.id);
