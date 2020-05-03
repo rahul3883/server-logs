@@ -1,6 +1,6 @@
 # Server logs on client
 
-View Node.js server logs on browser.
+View Node.js server logs in browser.
 
 ## Configure
 
