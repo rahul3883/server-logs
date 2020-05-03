@@ -1,12 +1,16 @@
 {
   "name": "server-logs",
   "version": "1.0.0",
-  "description": "",
+  "description": "View server logs in browser",
   "main": "client.js",
   "scripts": {
     "postinstall": "./configure"
   },
-  "author": "",
+  "author": {
+    "name" : "Rahul Soni",
+    "email" : "rahul.soni3883@gmail.com",
+    "url" : "https://github.com/rahul3883"
+  },
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
