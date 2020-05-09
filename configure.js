@@ -1,9 +1,11 @@
 const path = require('path');
 
+const sep = path.sep;
+
 const socketIoHomePath = path.dirname(require.resolve('socket.io-client/package.json'));
 
-const sourcePath = `${socketIoHomePath}/dist`;
-const destPath = 'public/socket';
+const sourcePath = `${socketIoHomePath}${sep}dist`;
+const destPath = `public${sep}socket`;
 
 const fs = require('fs-extra');
 

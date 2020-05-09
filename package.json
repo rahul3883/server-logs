@@ -1,6 +1,6 @@
 {
   "name": "@rahul171/server-logs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "View server logs in browser",
   "main": "client.js",
   "scripts": {
