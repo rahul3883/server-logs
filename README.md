@@ -12,7 +12,7 @@ npm install @rahul171/server-logs
 
 #### Start the server
 ```javascript
-const serverLogs = require('server-logs');
+const serverLogs = require('@rahul171/server-logs');
 serverLogs.configure();
 ```
 

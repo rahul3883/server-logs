@@ -1,4 +1,4 @@
-const serverLogs = require('server-logs');
+const serverLogs = require('@rahul171/server-logs');
 
 serverLogs.configure();
 
