@@ -1,4 +1,0 @@
-#!/bin/bash
-
-mkdir public/socket
-cp ../socket.io-client/dist/* public/socket/

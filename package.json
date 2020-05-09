@@ -1,19 +1,27 @@
 {
-  "name": "server-logs",
-  "version": "1.0.0",
+  "name": "@rahul171/server-logs",
+  "version": "1.0.2",
   "description": "View server logs in browser",
   "main": "client.js",
   "scripts": {
-    "postinstall": "./configure"
+    "postinstall": "node configure.js"
   },
   "author": {
-    "name" : "Rahul Soni",
-    "email" : "rahul.soni3883@gmail.com",
-    "url" : "https://github.com/rahul3883"
+    "name": "Rahul Soni",
+    "email": "rahul.soni3883@gmail.com",
+    "url": "https://github.com/rahul3883"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahul3883/server-logs.git"
   },
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "fs-extra": "^9.0.0",
     "socket.io": "^2.3.0"
-  }
+  },
+  "keywords": [
+    "log"
+  ]
 }
