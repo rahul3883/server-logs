@@ -10,8 +10,8 @@ const destPath = `public${sep}socket`;
 const fs = require('fs-extra');
 
 try {
-    fs.mkdirSync(destPath);
-    fs.copySync(sourcePath, destPath);
+  fs.mkdirSync(destPath);
+  fs.copySync(sourcePath, destPath);
 } catch (err) {
-    console.error(err);
+  console.error(err);
 }

@@ -7,14 +7,14 @@ const message = 'sample message';
 serverLogs.log(message);
 
 (async () => {
-    const message = await doSomething();
-    serverLogs.log(message);
+  const message = await doSomething();
+  serverLogs.log(message);
 })();
 
 async function doSomething(delay = 5) {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve('async message');
-        }, delay * 1000);
-    });
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve('async message');
+    }, delay * 1000);
+  });
 }
