@@ -1,6 +1,6 @@
 {
   "name": "@rahul171/server-logs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "View server logs in browser",
   "main": "client.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "https://github.com/rahul3883/server-logs.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "fs-extra": "^9.0.0",
