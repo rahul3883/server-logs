@@ -1,5 +1,5 @@
 {
-  "name": "@rahul171/server-logs",
+  "name": "@rahul1711/server-logs",
   "version": "1.0.6",
   "description": "View server logs in browser",
   "main": "client.js",

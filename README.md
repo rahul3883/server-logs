@@ -5,14 +5,14 @@ View Node.js server logs in browser.
 ## Install
 
 ```shell script
-npm install @rahul171/server-logs
+npm install @rahul1711/server-logs
 ```
 
 ## Usage
 
 #### Start the server
 ```javascript
-const serverLogs = require('@rahul171/server-logs');
+const serverLogs = require('@rahul1711/server-logs');
 serverLogs.configure();
 ```
 
